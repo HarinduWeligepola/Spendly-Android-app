@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A2A6C"
+    android:backgroundTint="#1A2A6C"
+    tools:context=".MainActivity2">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-355dp">
+
+        <ImageView
+            android:id="@+id/logo3"
+            android:layout_width="304dp"
+            android:layout_height="293dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.036"
+            app:srcCompat="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="279dp"
+            android:layout_height="151dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.881"
+            app:srcCompat="@drawable/imgbtn2" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:backgroundTint="#FFD700"
+            android:elevation="6dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Next"
+            android:textColor="#1A2A6C"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.924" />
+
+        <ScrollView
+            android:id="@+id/agrementScroll"
+            android:layout_width="280dp"
+            android:layout_height="305dp"
+            android:background="@drawable/rounded_background"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.564">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:text="User Agreement for Spendly"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:text="1. Acceptance of Terms\nBy downloading and using the Spendly app, you agree to comply with and be bound by these Terms of Service. If you do not agree to these terms, please do not use the app. These terms may be updated periodically, and you will be notified of any major changes when you open the app."
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:text="2. Privacy and Data Collection\nSpendly respects your privacy and is committed to protecting your personal information. We collect minimal data required for the functionality of the app, such as your financial transactions, spending patterns, and budget preferences. This data is used solely to provide you with insights, reports, and financial management tools."
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:text="3. Data Security\nWe implement reasonable security measures to protect your data from unauthorized access, alteration, disclosure, or destruction. However, no method of electronic transmission or storage is 100% secure, and we cannot guarantee the absolute security of your data."
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:text="4. User Responsibilities\nYou agree to:\n- Use Spendly for lawful purposes and not for any illegal or unauthorized activities.\n- Maintain the confidentiality of your account details and take full responsibility for all activities that occur under your account.\n- Not disrupt the operation of the app or access it through methods other than the provided interfaces."
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:text="5. Limitation of Liability\nSpendly is provided \as is,\ and we make no representations or warranties regarding the accuracy, reliability, or availability of the app. We are not liable for any loss, damage, or inconvenience caused by the use of Spendly, including but not limited to financial loss, data loss, or system errors. You use Spendly at your own risk."
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:text="6. Third-Party Services\nSpendly may contain links to third-party websites or services that are not controlled by us. We are not responsible for the content, privacy policies, or practices of these third-party services. By using Spendly, you acknowledge that we are not liable for any damage or loss caused by third-party services."
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:text="7. Termination\nWe reserve the right to suspend or terminate your access to Spendly at our discretion if you violate these terms or engage in behavior that disrupts the app's functionality or other users' experiences. You may also terminate your account at any time by contacting us."
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:text="8. Modifications to the Agreement\nWe may update or modify these Terms of Service at any time. The updated terms will be posted within the app, and the changes will take effect immediately upon posting. We recommend that you review this agreement periodically to stay informed about any updates."
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:text="9. Governing Law\nThese Terms of Service are governed by and construed in accordance with the laws of [Your Country or State]. Any disputes arising from these terms will be resolved in the courts of [Your Country or State], and you consent to the exclusive jurisdiction of these courts."
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:text="10. Contact Information\nIf you have any questions or concerns regarding these Terms of Service or the privacy practices of Spendly, please contact us at:\n\nEmail: support@spendlyapp.com\nPhone: +1 (123) 456-7890\nAddress: Spendly, 123 Financial St., Ratnapura, Sri Lanka."
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="By tapping Next, you agree to our Terms and Conditions."
+            android:textColor="#F1F1F1"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.769" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

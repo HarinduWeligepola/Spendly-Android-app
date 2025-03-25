@@ -1,0 +1,76 @@
+<ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="543dp"
+                android:layout_height="207dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/logo" />
+
+            <ImageView
+            android:id="@+id/imageView4"
+                android:layout_width="131dp"
+                android:layout_height="159dp"
+            app:srcCompat="@drawable/propic"
+            android:layout_gravity="center" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="284dp"
+            android:layout_height="48dp"
+            android:background="@drawable/edittext_border"
+            android:hint="Username"
+            android:inputType="text"
+            android:textColor="#000000"
+            android:textColorHint="#B0B0B0"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:padding="16dp"/> <!-- Center the EditText -->
+
+            <!-- Center the EditText -->
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="284dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:background="@drawable/edittext_border"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColor="#000000"
+                android:textColorHint="#B0B0B0"
+                android:textSize="16sp" />
+
+            <EditText
+            android:id="@+id/confirm_password"
+            android:layout_width="284dp"
+            android:layout_height="48dp"
+            android:background="@drawable/edittext_border"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:textColor="#000000"
+            android:textColorHint="#B0B0B0"
+            android:textSize="16sp"
+            android:layout_gravity="center" /> <!-- Center the EditText -->
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="284dp"
+            android:layout_height="48dp"
+            android:background="@drawable/edittext_border"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="#000000"
+            android:textColorHint="#B0B0B0"
+            android:textSize="16sp"
+            android:layout_gravity="center" /> <!-- Center the EditText -->
+
+            <EditText
+                android:id="@+id/fullname"
+                android:layout_width="284dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:background="@drawable/edittext_border"
+                android:hint="Full name"
+                android:inputType="text"
+                android:textColor="#000000"
+                android:textColorHint="#B0B0B0"
+                android:textSize="16sp" /> <!-- Center the EditText -->
