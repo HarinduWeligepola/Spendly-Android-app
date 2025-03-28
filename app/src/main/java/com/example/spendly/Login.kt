@@ -36,5 +36,16 @@ class Login : AppCompatActivity() {
             // Apply fade-in transition
             overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
         }
+
+        // Find the button and set a click listener
+        val button3: Button = findViewById(R.id.button3)
+        button3.setOnClickListener {
+            // Start the Register activity
+            val intent = Intent(this, Home::class.java)
+            startActivity(intent)
+
+            // Apply fade-in transition
+            overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
+        }
     }
 }

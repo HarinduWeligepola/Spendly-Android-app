@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A2A6C"
+    tools:context=".About">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:background="@drawable/bottom_nav_background"
+        app:itemHorizontalTranslationEnabled="false"
+        app:itemIconSize="35dp"
+        app:itemIconTint="@color/selector_nav_item_color"
+        app:labelVisibilityMode="unlabeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:menu="@menu/bottom_nav" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/logo4"
+                android:layout_width="466dp"
+                android:layout_height="211dp"
+                android:backgroundTint="#FFD700"
+                app:srcCompat="@drawable/logo"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_button"
+                android:fontFamily="@font/bayon"
+                android:gravity="center"
+                android:letterSpacing="0.05"
+                android:shadowColor="#FFFFFF"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="4"
+                android:text="📌 ABOUT US"
+                android:textColor="#000000"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewAbout"
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_background"
+                android:lineSpacingExtra="5dp"
+                android:padding="16dp"
+                android:text="Welcome to Spendly!\nAt Spendly, we believe that managing your finances should be simple, intuitive, and stress-free. Our app is designed to help you track your expenses, set budgets, and gain valuable insights into your spending habits—all in one place.\n\nWith a user-friendly interface and powerful analytics, Spendly empowers you to take control of your financial future. Whether you're saving for a goal, cutting down on unnecessary expenses, or just keeping track of where your money goes, Spendly makes it easier than ever.\n\nWhy Choose Spendly?\n✔ Easy expense tracking\n✔ Smart budget management\n✔ Insightful reports and analytics\n✔ Secure and private\n\nJoin us on our journey to better financial management. Spend smarter with Spendly!"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/rounded_button"
+                android:fontFamily="@font/bayon"
+                android:gravity="center"
+                android:letterSpacing="0.05"
+                android:shadowColor="#FFFFFF"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="4"
+                android:text="📞 COntact Us"
+                android:textColor="#000000"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewContact"
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="We’d love to hear from you! If you have any questions, feedback, or need support, feel free to reach out to us.\n\n📧 Email: support@spendly.com\n📞 Phone: +1 (123) 456-7890\n🌐 Website: www.spendly.com\n📍 Address: 123 Finance Street, Money City, USA\n\nYour feedback helps us improve Spendly and provide a better experience for all our users. Don't hesitate to reach out! 🚀"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                android:padding="16dp"
+                android:gravity="center"
+                android:lineSpacingExtra="5dp"
+                android:background="@drawable/rounded_background"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="100dp"/>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
